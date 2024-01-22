@@ -34,7 +34,7 @@ const PosterOverlay = styled.div`
   width: 100%;
   justify-content: flex-end;
   align-items: flex-start;
-  background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+  background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
   opacity: 1;
   transition: opacity 0.3s;
 

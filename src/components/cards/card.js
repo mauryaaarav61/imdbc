@@ -9,10 +9,12 @@ const CardWrapper = styled.div`
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  margin: 0.19rem;
+  margin: 1rem;
   cursor: pointer;
-  min-width: 200px;
-  height: 300px;
+  width: 100%;  
+ 
+  max-width: 300px; 
+  height: 400px;
   z-index: 0;
   border: 1px solid rgb(99, 99, 99);
 
@@ -25,7 +27,9 @@ const CardWrapper = styled.div`
 `;
 
 const CardImage = styled.img`
-  height: 300px;
+  height: 400px;
+  width:400px;
+  
 `;
 
 const CardOverlay = styled.div`
@@ -35,7 +39,7 @@ const CardOverlay = styled.div`
   height: 290px;
   display: flex;
   flex-direction: column;
-  width: 85%;
+ 
   justify-content: flex-end;
   background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
   opacity: 0;
